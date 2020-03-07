@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack -p --progress && node server.js"
+    "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js"
   },
   "author": "chripas88",
   "license": "ISC",
